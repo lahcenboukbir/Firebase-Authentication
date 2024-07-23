@@ -17,6 +17,13 @@
 - **Firebase**: Backend services for authentication and user management.
 - **CSS**: Styling for the user interface with support for light and dark modes.
 
+## Screenshots
+
+<img width="947" alt="home" src="https://github.com/user-attachments/assets/7802f007-2ee2-41ee-baa8-8aae49777b19"> <br>
+<img width="949" alt="sign up" src="https://github.com/user-attachments/assets/632f85da-dc05-43dd-9f22-63ab9e7f514c"> <br>
+<img width="946" alt="profile" src="https://github.com/user-attachments/assets/d07bc3d8-8135-4b86-a13f-ba0a167443c3">
+
+
 ## Getting Started
 
 ### Prerequisites
