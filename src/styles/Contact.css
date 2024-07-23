@@ -1,0 +1,113 @@
+/* Contact.css */
+
+.contact-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: inherit;
+  color: inherit;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: inherit;
+}
+
+.contact-form-section,
+.contact-details {
+  margin-bottom: 30px;
+}
+
+.contact-form-title,
+.contact-details-title {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: inherit;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: inherit;
+}
+
+.form-input,
+.form-textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form-submit {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+  background-color: #0056b3;
+}
+
+.contact-detail {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: inherit;
+}
+
+.contact-detail strong {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-form-title,
+  .contact-details-title {
+    font-size: 1.5rem;
+  }
+
+  .form-label,
+  .contact-detail {
+    font-size: 0.9rem;
+  }
+
+  .form-submit {
+    font-size: 0.9rem;
+  }
+}

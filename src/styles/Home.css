@@ -1,0 +1,40 @@
+/* Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: inherit;
+  color: inherit;
+}
+
+.home-header {
+  text-align: center;
+  margin: 20px;
+}
+
+.home-welcome {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.home-message {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .home-welcome {
+    font-size: 2.5rem;
+  }
+
+  .home-message {
+    font-size: 1rem;
+  }
+}

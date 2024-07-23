@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lahcenboukbir/React-Firebase-Authentication.git/static/css/main.22be3f7d.css",
+    "main.js": "/lahcenboukbir/React-Firebase-Authentication.git/static/js/main.3f44b5ed.js",
+    "index.html": "/lahcenboukbir/React-Firebase-Authentication.git/index.html",
+    "main.22be3f7d.css.map": "/lahcenboukbir/React-Firebase-Authentication.git/static/css/main.22be3f7d.css.map",
+    "main.3f44b5ed.js.map": "/lahcenboukbir/React-Firebase-Authentication.git/static/js/main.3f44b5ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22be3f7d.css",
+    "static/js/main.3f44b5ed.js"
+  ]
+}

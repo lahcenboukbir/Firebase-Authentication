@@ -1,0 +1,97 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.toggle-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Light Mode */
+.container.light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container.light .navbar-header,
+.container.light .footer {
+  background-color: #ffffff;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.container.light .navbar-link,
+.container.light .footer-link {
+  color: #007bff;
+}
+
+.container.light .navbar-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.container.light .navbar-button:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Mode */
+.container.dark {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+.container.dark .navbar-header,
+.container.dark .footer {
+  background-color: #222;
+  color: #f4f4f4;
+  border-bottom: 1px solid #444;
+}
+
+.container.dark .navbar-link,
+.container.dark .footer-link {
+  color: #1e90ff;
+}
+
+.container.dark .navbar-button {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.container.dark .navbar-button:hover {
+  background-color: #0d74d5;
+}
+
+/* General Styles */
+button {
+  font-family: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
